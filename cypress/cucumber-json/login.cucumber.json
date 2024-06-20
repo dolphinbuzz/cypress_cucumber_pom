@@ -1,0 +1,126 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Login",
+    "line": 5,
+    "id": "login",
+    "tags": [
+      {
+        "name": "@all",
+        "line": 4
+      }
+    ],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;criar-novo-usuario",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Criar novo usuario",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 4
+          },
+          {
+            "name": "@login-04",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 32,
+            "name": "clico na aba Register",
+            "result": {
+              "status": "passed",
+              "duration": 951000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 33,
+            "name": "insiro o nome completo",
+            "result": {
+              "status": "passed",
+              "duration": 468000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 34,
+            "name": "insiro o username",
+            "result": {
+              "status": "passed",
+              "duration": 457000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 35,
+            "name": "insiro o email",
+            "result": {
+              "status": "passed",
+              "duration": 443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 36,
+            "name": "insiro email de confirmação",
+            "result": {
+              "status": "passed",
+              "duration": 442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 37,
+            "name": "insiro uma nova senha",
+            "result": {
+              "status": "passed",
+              "duration": 269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 38,
+            "name": "clico em Register",
+            "result": {
+              "status": "passed",
+              "duration": 1092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 39,
+            "name": "valido que o login foi realizado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 40,
+            "name": "valido que o usuario foi criado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "name": "cypress_cucumber_pom",
+  "version": "1.0.0",
+  "description": "Projeto de estudo com cypress, cucumber e page object model ",
+  "main": "e2e.js",
+  "author": {
+    "name": "Gutenberg de Souza Barros",
+    "email": "guto.te.big@gmail.com"
+  },
+  "scripts": {
+    "open": "npx cypress open",
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "test-automation",
+    "qa",
+    "javascript",
+    "cucumber",
+    "pom"
+  ],
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.12.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step-definitions",
+    "cucumberJson": {
+      "generate": true,
+      "outputFOlder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1"
+  }
+}

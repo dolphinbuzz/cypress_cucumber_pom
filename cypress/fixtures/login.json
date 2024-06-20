@@ -1,0 +1,8 @@
+{
+  "new_Name": "",
+  "email": "hello@cypress.io",
+  "new_pass":"teste123",
+  "newUsername":"test123",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "baseUrl": "http://localhost"
+}

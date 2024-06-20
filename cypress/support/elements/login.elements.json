@@ -1,0 +1,13 @@
+{
+    "input_login":"input[data-qa-selector=login_field]",
+    "input_senha":"input[data-qa-selector=password_field]",
+    "login_bnt":"input[type=submit].btn-success",
+    "msg_erro":".flash-alert span:contains(Invalid Login or password.)",
+    "aba_register":"a:contains(Register)",
+    "input_full_name":"div > label:contains(Full name) ~input",
+    "input_username":"#new_user_username",
+    "input_email":"div > label:contains(Email) ~input:first",
+    "input_email_confirm":"div > label:contains(Email confirmation) ~input",
+    "input_new_pass":"#new_user_password",
+    "btn_register":"input[value=Register]"
+}
