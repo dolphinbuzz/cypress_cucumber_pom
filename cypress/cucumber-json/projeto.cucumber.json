@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Projeto",
+    "line": 4,
+    "id": "projeto",
+    "tags": [],
+    "uri": "projeto.feature",
+    "elements": [
+      {
+        "id": "projeto;criação-de-projeto",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Criação de Projeto",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que realizo login",
+            "result": {
+              "status": "passed",
+              "duration": 5292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "clico no botão Create a project",
+            "result": {
+              "status": "passed",
+              "duration": 1582000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

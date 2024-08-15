@@ -1,4 +1,4 @@
-const pageLogin = require('../../support/pages/login/page.model')
+const pageLogin = require('../../pages/login/page.model')
 const {Then, And, Given, When} = require('cypress-cucumber-preprocessor/steps')
 
 Given('que acesso a página inicial',()=>{
@@ -59,4 +59,8 @@ And('clico em Register',()=>{
 
 Then('valido que o usuario foi criado com sucesso',()=>{
     pageLogin.login.validateNewUser()
+})
+
+Given('que realizo login',()=>{
+    pageLogin.login.realizaLogin()
 })

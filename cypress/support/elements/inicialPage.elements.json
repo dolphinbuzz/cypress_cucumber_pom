@@ -1,5 +1,6 @@
 {
     "title":"h2:contains(Welcome to GitLab)",
     "msg_login":"span:contains(Welcome! You have signed up successfully.)",
-    "user_name":".user-name"
+    "user_name":".user-name",
+    "cria_projeto_btn":"a:contains(Create a project)"
 }
