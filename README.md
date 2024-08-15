@@ -97,7 +97,7 @@ Uma mensagem de que o token foi criado com sucesso deve ser exibida, além do to
 2. Será solicitado um caminho para salvar a chave. Pressione ENTER para aceitar o caminho padrão
 3. Será solicitada uma senha. Pressione ENTER para que a senha não seja necessária
 4. Será solicitado que repita a senha. Pressione ENTER novamente para que a senha não seja necessária
-5. De novo no terminal de linha de comando, digite o seguinte comando e pressione ENTER para copiar a chave pública recém criada para a área de transferência pbcopy < ~/.ssh/id_ed25519.pub
+5. De novo no terminal de linha de comando, digite o seguinte comando e pressione ENTER para copiar a chave pública recém criada para a área de transferência `pbcopy < ~/.ssh/id_ed25519.pub`
 6. Logado na aplicação com o usuário root, clique no avatar do usuário no canto superior direito da tela; clique no link Settings; e então, clique na opção SSH Keys (no menu lateral esquerdo)
 7. Cole sua chave SSH pública no campo key. O campo Title deve ser automaticamente preenchido
 8. Por fim, clique no botão Add key.
