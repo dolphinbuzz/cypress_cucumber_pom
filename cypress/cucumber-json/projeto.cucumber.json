@@ -22,7 +22,7 @@
             "name": "que realizo login",
             "result": {
               "status": "passed",
-              "duration": 5292000000
+              "duration": 6384000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "clico no botão Create a project",
             "result": {
               "status": "passed",
-              "duration": 1582000000
+              "duration": 3529000000
             }
           }
         ]
